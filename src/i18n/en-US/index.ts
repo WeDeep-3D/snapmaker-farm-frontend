@@ -38,6 +38,7 @@ export default {
           deviceName: 'Name:',
           serialNumber: 'S/N: ',
           macAddress: 'MAC Address: {mac}',
+          downloadLogs: 'Download Logs',
         },
         notifications: {
           copySerialNumberSuccess: 'Serial number copied to clipboard',

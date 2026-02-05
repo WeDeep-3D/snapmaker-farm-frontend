@@ -38,6 +38,7 @@ export default {
           deviceName: '名称：',
           serialNumber: '序列号：',
           macAddress: 'MAC 地址：{mac}',
+          downloadLogs: '下载日志',
         },
         notifications: {
           copySerialNumberSuccess: '序列号已复制到剪贴板',

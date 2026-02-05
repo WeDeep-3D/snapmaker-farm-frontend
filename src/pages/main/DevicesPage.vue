@@ -13,19 +13,9 @@ const displayOptions = [
     icon: 'grid_view',
     value: 'grid',
   },
-  {
-    label: i18n('labels.list'),
-    icon: 'format_list_bulleted',
-    value: 'list',
-  },
 ];
 
 const panelOptions = [
-  {
-    label: i18n('labels.viewDevices'),
-    icon: 'print',
-    value: 'devices',
-  },
   {
     label: i18n('labels.scanDevices'),
     icon: 'search',
@@ -33,7 +23,7 @@ const panelOptions = [
   },
 ];
 
-const displayOption = ref<'grid' | 'list'>('list');
+const displayOption = ref<'grid' | 'list'>('grid');
 const panelOption = ref('scans');
 </script>
 

@@ -18,34 +18,10 @@ const i18n = i18nSubPath('components.navigations');
 //       },
 export const MAIN_NAVIGATIONS: Navigation[] = [
   {
-    label: i18n('main.projects'),
-    icon: 'folder_open',
-    available: true,
-    route: 'projects',
-  },
-  {
     label: i18n('main.devices'),
     icon: 'devices',
     available: true,
     route: 'devices',
-  },
-  {
-    label: i18n('main.filaments'),
-    icon: 'tune',
-    available: true,
-    route: 'filaments',
-  },
-  {
-    label: i18n('main.messages'),
-    icon: 'message',
-    available: true,
-    route: 'messages',
-  },
-  {
-    label: i18n('main.settings'),
-    icon: 'settings',
-    available: true,
-    route: 'settings',
   },
 ];
 
