@@ -1,4 +1,4 @@
-const productName = 'Snapmaker Farm';
+const productName = 'Snapmaker Diagnosis';
 
 export default {
   components: {
